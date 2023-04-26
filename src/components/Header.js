@@ -14,13 +14,13 @@ function Header() {
             style={({ isActive }) =>
               isActive
                 ? {
-                    color: '#000000',
+                    color: '#00ADB5',
                     textDecoration: 'none',
                     fontWeight: 'bold',
                     fontSize: '22px',
                   }
                 : {
-                    color: '#545e6f',
+                    color: '#eeeeee',
                     textDecoration: 'none',
                   }
             }
@@ -35,12 +35,12 @@ function Header() {
               isActive
                 ? {
                     textDecoration: 'none',
-                    color: '#000000',
+                    color: '#00ADB5',
                     fontWeight: 'bold',
                     fontSize: '22px',
                   }
                 : {
-                    color: '#545e6f',
+                    color: '#eeeeee',
                     textDecoration: 'none',
                   }
             }
