@@ -14,8 +14,8 @@ class Home extends React.Component {
   }
 
   //logout function
-  logout() {
-    firebase.auth().signOut()
+  logout = async (e) => {
+    await firebase.auth().signOut()
     this.setState({
       message: "You've Logged Out",
       button: 'Click on Login above',
