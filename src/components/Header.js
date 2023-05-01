@@ -1,6 +1,4 @@
 import React from 'react'
-import Login from './Login'
-import Search from './Search'
 import { NavLink } from 'react-router-dom'
 
 function Header() {
@@ -14,13 +12,13 @@ function Header() {
             style={({ isActive }) =>
               isActive
                 ? {
-                    color: '#000000',
+                    color: '#00ADB5',
                     textDecoration: 'none',
                     fontWeight: 'bold',
                     fontSize: '22px',
                   }
                 : {
-                    color: '#545e6f',
+                    color: '#eeeeee',
                     textDecoration: 'none',
                   }
             }
@@ -35,12 +33,12 @@ function Header() {
               isActive
                 ? {
                     textDecoration: 'none',
-                    color: '#000000',
+                    color: '#00ADB5',
                     fontWeight: 'bold',
                     fontSize: '22px',
                   }
                 : {
-                    color: '#545e6f',
+                    color: '#eeeeee',
                     textDecoration: 'none',
                   }
             }
@@ -50,7 +48,6 @@ function Header() {
           </NavLink>
         </div>
       </nav>
-      <hr />
     </div>
   )
 }
